@@ -24,7 +24,7 @@ class SearchController extends Controller
     }
 
     /**
-     * @api {get} /api/search/
+     * @api {get} /api/search
      * @apiName search
      * @apiHeader {String} Accept "application/json".
      *
