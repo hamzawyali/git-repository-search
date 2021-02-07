@@ -15,9 +15,9 @@ class SearchRequest extends FormRequest
     {
         return [
             'sort' => 'nullable|string|in:stars,forks',
-            'order' => 'nullable|string|in:desc,asc',
+            'order' => 'nullable|string|in:asc,desc',
             'per_page' => 'integer|in:10,50,100',
-            'date' => 'required|date|date_format:Y-m-d',
+            'date' => 'required|date_format:Y-m-d',
             'language' => 'string'
         ];
     }
